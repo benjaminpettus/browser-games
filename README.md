@@ -29,9 +29,13 @@ Specifications
 ## Resources
 
 jQuery Learning Center #jquery
+
 Code School: Try jQuery #jquery #js #dom
+
 CSS Tricks: Learn jQuery from Scratch #jquery #js #dom
+
 Tetris Tutorial https://github.com/jonhoo/tetris-tutorial/
+
 Video series on building tetris: part 1, part 2, part 3, and part 4
 
 ## Installation and Setup
