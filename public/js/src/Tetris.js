@@ -11,11 +11,7 @@ define(["src/GameBoard", "src/StatManager"], function(GameBoard, StatManager) {
 
     },
 
-    handleInputs: function(inpt) {
-
-    },
-
-    update: function() {
+    update: function(inpt) {
 
     },
 

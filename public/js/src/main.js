@@ -21,8 +21,7 @@ require(["src/Game", "src/Tetris"], function(Game, Tetris) {
     tick: function() {
       if (this.hasLoad) {
 
-        this.tetris.handleInputs(input);
-        this.tetris.update();
+        this.tetris.update(input);
         this.tetris.draw(canvas.ctx);
 
       } else {

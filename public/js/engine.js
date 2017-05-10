@@ -106,5 +106,38 @@ var _fw, _fh, _vw, _vh
     }
 
     return c;
-  })()
+  })();
+
+  input = (function() {
+    var i = {},
+
+      _bindings = {},
+      _pressed = {},
+      _down = {},
+      _released = [],
+
+      mouse = { x: 0, y: 0 };
+
+    var Buttons = {
+      LEFT: -1,
+      MIDDLE: -2,
+      RIGHT: -3
+    }
+
+    var Keys = {
+      SPACE: 32,
+      LEFT_ARROW: 37,
+      UP_ARROW: 38,
+      RIGHT_ARROW: 39,
+      DOWN_ARROW: 40
+    }
+
+    for (var ch = 65; ch <= 90; ch++) {
+      Keys[String.fromCharCode(ch)] = ch;
+    }
+
+    console.log(Keys)
+    return i;
+  })();
+
 })();
