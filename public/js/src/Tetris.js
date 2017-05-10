@@ -12,7 +12,7 @@ define(["src/GameBoard", "src/StatManager"], function(GameBoard, StatManager) {
     },
 
     update: function(inpt) {
-
+    
     },
 
     draw: function(ctx) {
