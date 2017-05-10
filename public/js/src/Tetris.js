@@ -43,10 +43,16 @@ define(["src/Numfont"], function(Numfont) {
     },
 
     draw: function(ctx) {
-      ctx.drawImage(this.back, 0, 0)
+      ctx.drawImage(this.back, 0, 0);
 
-      this.font.purple.draw(ctx, 55, 10, 10, 5);
-      this.font.gray.draw(ctx, this.data.TOT, 10, 10, 6);
+      this.font.orange.draw(ctx, this.data.L, 432, 52, 5);
+      this.font.cyan.draw(ctx, this.data.I, 432, 76, 5);
+      this.font.purple.draw(ctx, this.data.T, 432, 100, 5);
+      this.font.green.draw(ctx, this.data.S, 432, 124, 5);
+      this.font.red.draw(ctx, this.data.Z, 432, 148, 5);
+      this.font.yellow.draw(ctx, this.data.O, 432, 172, 5);
+      this.font.blue.draw(ctx, this.data.J, 432, 196, 5);
+      this.font.gray.draw(ctx, this.data.TOT, 425, 221, 6);
     }
   });
 
