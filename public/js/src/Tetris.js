@@ -12,7 +12,11 @@ define(["src/GameBoard", "src/StatManager"], function(GameBoard, StatManager) {
     },
 
     update: function(inpt) {
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> e44416eb8c229721ff667fb7aaacf8ef08ee1bc8
     },
 
     draw: function(ctx) {
