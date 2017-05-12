@@ -15,11 +15,11 @@ Specifications
 
 - [ ] User stories and features for the game are added as issues to your repo with the label feature or user-story
 - [ ] You’ll have to define these yourself by looking at the rules of the game and coming up with the right user stories & features
-- [ ] jQuery is used for DOM manipulation code
-- [ ] Tetris game can be found at public/tetris.html
+- [x] jQuery is used for DOM manipulation code
+- [x] Tetris game can be found at public/tetris.html
 - [x] Tetris game is playable
 - [x] Players have a score
-- [ ] Game page is linked from public/index.html
+- [x] Game page is linked from public/index.html
 
 ## Stretch
 
